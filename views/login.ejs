@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<!--
+	Landed by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<% include partials/head.ejs %>
+	<body class="landing">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+            <% include partials/header.ejs %>
+
+			<!-- Four -->
+				<section id="four" class="wrapper style1 special fade-up">
+					<div class="container">
+						<header class="major">
+							<h2>Get started with VisuRead!</h2>
+							<p>Login or create your account today. </p>
+						</header>
+						<div class="box alt">
+							<div class="row uniform">
+                                <!-- Log in --> 
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<h3>Login</h3>
+									<form method="post" action="#">
+									<div class="row uniform 50%">
+										<div class="12u$">
+											<input type="text" name="email" id="email" value="" placeholder="Email" />
+										</div>
+										<div class="12u$">
+											<input type="password" name="password" id="password" value="" placeholder="Password" />
+										</div>
+										<div class="12u$">
+											<input type="submit" value="Login" class="special"/>
+										</div>
+									</div>
+								</form>
+								</section>
+                                <!-- End Login --> 
+								<section class="4u 6u$(medium) 12u$(xsmall)">
+									<h3>Sign up or Login with: </h3>
+									<p>{Include third party things here.}</p>
+								</section>
+                                <!-- Sign Up -->
+								<section class="4u$ 6u(medium) 12u$(xsmall)">
+									<h3>Sign up</h3>
+									<form method="post" action="#">
+									<div class="row uniform 50%">
+										<div class="12u$">
+											<input type="text" name="username" id="username" value="" placeholder="Username" />
+										</div>
+                                        <div class="12u$">
+											<input type="text" name="email" id="email" value="" placeholder="Email" />
+										</div>
+										<div class="12u$">
+											<input type="password" name="password" id="password" value="" placeholder="Password" />
+										</div>
+										<div class="12u$">
+											<input type="submit" value="Login" class="special"/>
+										</div>
+									</div>
+								</form>
+								</section>
+                                <!-- End Sign Up-->
+<!--
+								<section class="4u 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-paper-plane"></span>
+									<h3>Non semper interdum</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="4u 6u(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-file"></span>
+									<h3>Odio laoreet accumsan</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+								<section class="4u$ 6u$(medium) 12u$(xsmall)">
+									<span class="icon alt major fa-lock"></span>
+									<h3>Massa arcu accumsan</h3>
+									<p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+								</section>
+							</div>
+						</div>
+						<footer class="major">
+							<ul class="actions">
+								<li><a href="#" class="button">Magna sed feugiat</a></li>
+							</ul>
+						</footer>
+-->
+                            </div>
+                            </div>
+                    </div>
+				</section>
+
+			<!-- Footer -->
+            <% include partials/footer.ejs %>
+
+		</div>
+
+		<!-- Scripts -->
+		<% include partials/scripts.ejs %>
+        
+	</body>
+</html>
