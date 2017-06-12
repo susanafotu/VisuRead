@@ -62,6 +62,15 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
+/* GET login page*/
+router.get('/login', function(req, res, next) {
+  res.render('login');
+});
+
+router.get('/workspace', function(req,res,next){
+    res.render('workspace');
+});
+
 ///* GET list of schools */
 //router.get('/schools', function(req, res, next) {
 //  School.find(function(err, schools){
